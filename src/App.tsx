@@ -2,12 +2,13 @@ import React from "react";
 import { SafeAreaView, StyleSheet, Platform, StatusBar } from "react-native";
 import { WebView } from "react-native-webview";
 import Loading from "./components/loading";
-// TODO: URL BASE DEVE VIR DE UM ENV
+import { REACT_APP_WEBVIEW_URL } from "@env";
+
 const App: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
       <WebView
-        source={{ uri: "https://vblog-sigmal.vercel.app/dashboard" }}
+        source={{ uri: REACT_APP_WEBVIEW_URL }}
         javaScriptEnabled
         domStorageEnabled
         startInLoadingState
