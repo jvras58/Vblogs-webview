@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "https://www.cin.ufpe.br/~v-lab/img/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jvras.Vblogswebview"
     },
     "web": {
       "favicon": "https://www.cin.ufpe.br/~v-lab/img/favicon.png"
