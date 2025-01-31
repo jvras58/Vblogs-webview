@@ -4,11 +4,11 @@
     "slug": "Vblogs-webview",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "https://www.cin.ufpe.br/~v-lab/img/logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "https://www.cin.ufpe.br/~v-lab/img/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "https://www.cin.ufpe.br/~v-lab/img/logo.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "https://www.cin.ufpe.br/~v-lab/img/favicon.png"
     },
     "extra": {
       "eas": {

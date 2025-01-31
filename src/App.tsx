@@ -2,13 +2,15 @@ import React from "react";
 import { SafeAreaView, StyleSheet, Platform, StatusBar } from "react-native";
 import { WebView } from "react-native-webview";
 import Loading from "./components/loading";
+
+// FIXME - This is a workaround to get the webview url from the .env file 
 import { REACT_APP_WEBVIEW_URL } from "@env";
 
 const App: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
       <WebView
-        source={{ uri: REACT_APP_WEBVIEW_URL }}
+        source={{ uri: "https://vblog-sigmal.vercel.app/dashboard" }}
         javaScriptEnabled
         domStorageEnabled
         startInLoadingState
